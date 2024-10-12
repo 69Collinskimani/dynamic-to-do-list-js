@@ -20,6 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const li = document.createElement('li');
         li.textContent = taskText;
 
+        // Add a class to the list item for styling
+        li.classList.add('task-item'); // You can style this class in your CSS
+
         // Create a remove button
         const removeButton = document.createElement('button');
         removeButton.textContent = "Remove";
